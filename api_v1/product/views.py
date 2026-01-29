@@ -63,4 +63,5 @@ async def delete_product(
     await crud.delete_product(
         session=session,
         product=product,
+        
     )
