@@ -1,0 +1,4 @@
+run generate grpc proto files
+
+poetry run python -m grpc_tools.protoc -I. --python_out=pb --grpc_python_out=pb --mypy_out=pb --mypy_grpc_out=pb ping.proto
+
